@@ -6,7 +6,7 @@ Configuring your job file
 
 Node types
 ----------
-
+There are a lot.
 Placeholder text.
 
 Slurm commands
