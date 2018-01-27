@@ -3,6 +3,8 @@ Contributing to this documentation
 
 The source code for this documentation is hosted here: https://github.com/holdymoldy/arjuna. It is written in reStructuredText. To contribute to the documentation, you'll need a basic understanding of git and rst (http://docutils.sourceforge.net/rst.html).
 
+The project is structured to have a single "root" file and arbitrarily many "branch" files. In this project, the "root" file is called "index.rst". The "branch" files all have the ending ".rst". If you want to add a new page, your file must be named with a ".rst" extension. Then, the name of this file must be added to "index.rst" so that it is included in the tree structure during compilation. For example, if I create a file called "arjuna_facts.rst", I have to include "arjuna_facts" in the "index.rst" file.
+
 Git
 ---
 
@@ -51,4 +53,8 @@ If you go onto the webpage of your fork, you will see that your commit has chang
 
 Once we've looked at your changes, the documentation will be rebuilt to reflect your contributions.
 
+RST
+---
+
+RST is a plaintext markup syntax and parser system. It is very easy to learn and use. To contribute to this documentation, your contributions must be written in RST. Easy-to-follow guides can be found here: http://docutils.sourceforge.net/rst.html.
 
