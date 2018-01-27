@@ -7,8 +7,8 @@ Arjuna is a multi-departmental GPU cluster managed by Gregory Houchins <ghouchin
 Useful Commands
 ---------------
 
-Check nodes status
-~~~~~~~~~~~~~~~~~~
+sinfo (check nodes status)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This command shows the status of the different computing nodes. "idle" nodes have no jobs running, "alloc" nodes have jobs running 
 on all their cores, and "mix" nodes have some cores taken and some idle.
