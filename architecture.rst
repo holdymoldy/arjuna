@@ -6,6 +6,7 @@ ________________
 
 A cartoon schematic of the cluster networking can be understood below. 
 
+
 .. image:: arch.png
     :width: 1500 px
 
