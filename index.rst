@@ -10,7 +10,7 @@ Arjuna is a multi-departmental GPU cluster managed by Gregory Houchins. If you h
 
 **BEFORE YOU GET STARTED**, we have two requests:
 
-- Never, ever, ever run on jobs on the head node
+- Never, ever, ever run jobs on the head node
 - Read the :ref:`bestpractices` section to optimize the cluster user experience for yourself and other users.
 
 .. toctree::
