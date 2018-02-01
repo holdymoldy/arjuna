@@ -59,7 +59,7 @@ The available nodes have the following specs:
 - 27 GPU nodes, each with 128 GB, 64 cores, and 4 K80 NVIDIA GPUs
 
 Arjuna has 8 TB of RAID storage for the entire cluster. There are currently no limits on the amount of storage that each
-user may use, but please be cognizant of the amount of space you are using. See :ref:`storage` for more details about
+user may use, but please be aware of the amount of space you are using. See :ref:`storage` for more details about
 best practices.
 
 Computing limits

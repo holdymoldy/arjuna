@@ -7,7 +7,7 @@ ________________
 A cartoon schematic of the cluster networking can be understood below. 
 
 
-.. image:: arch.png
+.. image:: images/arch.png
     :width: 1500 px
 
 Only the master node can access and is accessible to the outside world. The internal network is divided into two. The first is used for simple interfacing between the compute nodes and the head nodes, including administrative tasks and access to compute node BIOS. The second network is a highspeed fabric managed by Intel OmniPath software. This network is used for multinode jobs. Unfortunately this network is improperly configured at the moment but multimode jobs are still possible through the slower Ethernet networking. 

@@ -10,7 +10,7 @@ Disk space usage
 ----------------
 
 There are currently no limits on the amount of disk space that a user can use. Please be cognizant of this - if Arjuna's
-storage becomes completely full, most queued jobs will be canceled. For you reference you can check the state of the
+storage becomes completely full, most queued jobs will be canceled. For your reference you can check the state of the
 memory with the command
 
 .. code-block:: bash
@@ -34,7 +34,7 @@ Please follow these guidelines when asking for computing resources in your job f
 
 **Ask for a number of cores per node that is divisible by the total number of cores on that node.** For example, a CPU
 node has 56 cores, so you can ask for 14 or 28 cores, but not 31. The reason is that nodes can be split amongst separate
-jobs. Asking for awkward numbers of cores like this makes it difficult for the job manager to do this.
+jobs. Asking for awkward numbers of cores like this makes it difficult for the job manager to split these leftover resources.
 
 **Ask for memory that is proportional to the number of requested cores.** For example, if you need 64 GB (out of 128) of memory on a
 CPU node, ask for 28 cores (out of 56). Don't ask for, say, 64 GB on 10 cores. Again, this makes it difficult for the
