@@ -55,8 +55,8 @@ About the nodes
 The available nodes have the following specs:
 
 - 70 CPU nodes, each with 128 GB memory and 56 cores
-- 2 high-memory nodes, each with 512 GB and 32 cores
-- 27 GPU nodes, each with 128 GB, 64 cores, and 4 K80 NVIDIA GPUs
+- 2 high-memory nodes, each with 512 GB memory and 32 cores
+- 27 GPU nodes, each with 128 GB memory, 64 cores, and 4 K80 NVIDIA GPUs
 
 Arjuna has 8 TB of RAID storage for the entire cluster. There are currently no limits on the amount of storage that each
 user may use, but please be aware of the amount of space you are using. See :ref:`storage` for more details about

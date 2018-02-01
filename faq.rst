@@ -15,4 +15,4 @@ Before installing software, please refer to the software already installed local
 Can I have access to the GPU nodes?
 -----------------------------------
 
-The GPU nodes are available to users of the Viswanathan, Lane, Sekar groups. If your advisor is in Chemical Engineering, you may request limited access to GPU nodes.
+The GPU nodes are available to users of the Viswanathan, Lane, and Sekar groups. If your advisor is in Chemical Engineering, you may request limited access to GPU nodes.
