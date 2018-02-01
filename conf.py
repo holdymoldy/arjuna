@@ -35,7 +35,8 @@ extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.imgmath',
-    'sphinx.ext.viewcode']
+    'sphinx.ext.viewcode',
+    'sphinxcontrib.fulltoc']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['.templates']
@@ -107,6 +108,7 @@ html_static_path = ['.static']
 # refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
 html_sidebars = {
     '**': [
+        'fulltoc.html',
         'relations.html',  # needs 'show_related': True theme option to display
         'searchbox.html',
     ]

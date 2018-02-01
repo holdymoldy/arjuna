@@ -1,6 +1,9 @@
 .. role:: bash(code)
    :language: bash
 
+.. _bestpractices:
+
+
 Best practices
 ==============
 

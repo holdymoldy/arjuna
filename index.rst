@@ -8,8 +8,13 @@ Welcome to Arjuna's documentation!
 
 Arjuna is a multi-departmental GPU cluster managed by Gregory Houchins. If you have questions not answered in this wiki, please email <arjunahelp@cmu.edu>.
 
+**BEFORE YOU GET STARTED**, we have two requests:
+
+- Never, ever, ever run on jobs on the head node
+- Read the :ref:`bestpractices` section to optimize the cluster user experience for yourself and other users.
+
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    intro
    job_files
@@ -18,6 +23,7 @@ Arjuna is a multi-departmental GPU cluster managed by Gregory Houchins. If you h
    architecture
    faq
    contributing
+   Donts
 
 Indices and tables
 ==================
