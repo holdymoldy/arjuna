@@ -6,7 +6,7 @@ Introduction
 
 
 Arjuna is a multi-departmental GPU cluster managed by Gregory Houchins. If you have questions or would like to be added
-to the mailing list, please email <arjunahelp@cmu.edu>.
+to the mailing list, please email Arjuna help <arjunahelp@cmu.edu>.
 
 Accessing Arjuna
 ----------------

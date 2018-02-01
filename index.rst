@@ -23,7 +23,7 @@ Arjuna is a multi-departmental GPU cluster managed by Gregory Houchins. If you h
    architecture
    faq
    contributing
-   Donts
+
 
 Indices and tables
 ==================
