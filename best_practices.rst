@@ -44,3 +44,10 @@ jobs. Asking for awkward numbers of cores like this makes it difficult for the j
 **Ask for memory that is proportional to the number of requested cores.** For example, if you need 64 GB (out of 128) of memory on a
 CPU node, ask for 28 cores (out of 56). Don't ask for, say, 64 GB on 10 cores. Again, this makes it difficult for the
 job manager to split remaining resources amongst other jobs.
+
+Optimizing your resource usage
+------------------------------
+
+It's tempting to just ask for as many resources as possible, but you should instead try to optimize your memory and
+processor usage. Most codes do not scale perfectly, so if you ask for 2x resources, this will not necessarily mean that
+your jobs will run twice as fast. Do some testing for the optimal number of cores for your code.

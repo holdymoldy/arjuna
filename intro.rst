@@ -54,7 +54,7 @@ About the nodes
 
 The available nodes have the following specs:
 
-- 68 CPU nodes, each with 128 GB memory and 56 cores
+- 70 CPU nodes, each with 128 GB memory and 56 cores
 - 2 high-memory nodes, each with 512 GB and 32 cores
 - 27 GPU nodes, each with 128 GB, 64 cores, and 4 K80 NVIDIA GPUs
 
