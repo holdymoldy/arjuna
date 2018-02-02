@@ -55,7 +55,6 @@ About the nodes
 The available nodes have the following specs:
 
 - 70 CPU nodes, each with 128 GB memory and 56 cores
-  -2 of these CPU nodes are on a debug/idle partition. See below for details.
 - 2 high-memory nodes, each with 512 GB memory and 32 cores
 - 27 GPU nodes, each with 128 GB memory, 64 cores, and 4 K80 NVIDIA GPUs
 
@@ -75,7 +74,7 @@ use 4 nodes at once.
 Debugging your code
 ----------------
 
-It can be a hassle to wait in the queue	for a long time	only to	find out you forgot to close a parenthesis in your code. For debugging, there is a dedicated partition of 2 CPU nodes that can be used for debugging. There is a walltime of 30 minutes for this partition. In order to make sure these two nodes remain in use, they have been dual purposed on another partition called idle. You may submit to this partition just as you would any other cpu node. The difference is that whenever a debug job is submitted, your job will be preempted, suspended, and the debug job will run. When the debug job finishes, your job on the idle partition will resume where it was paused. You can submit to these node using your cpu account and specifying the partition name.
+It can be a hassle to wait in the queue	for a long time	only to	find out you forgot to close a parenthesis in your code. For debugging, there is a dedicated partition of 2 CPU nodes that can be used for debugging. There is a walltime of 30 minutes for this partition. In order to make sure these two nodes remain in use, they have been dual purposed on another partition called idle. You may submit to this partition just as you would any other cpu node. The difference is that whenever a debug job is submitted, your job will be preempted, suspended, and the debug job will run. When the debug job finishes, your job on the idle partition will resume where it was paused. You can submit to these node using your cpu account and specifying the partition name: "debug" or "idle".
 
 
 Useful Commands
