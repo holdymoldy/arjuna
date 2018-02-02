@@ -51,3 +51,8 @@ Optimizing your resource usage
 It's tempting to just ask for as many resources as possible, but you should instead try to optimize your memory and
 processor usage. Most codes do not scale perfectly, so if you ask for 2x resources, this will not necessarily mean that
 your jobs will run twice as fast. Do some testing for the optimal number of cores for your code.
+
+Debugging
+______________________________
+
+In order for you to make the most effient use of the resources it is helpful to debug your code by submitting to the dedicated very low waltime debug queue. To learn more see :ref:`debug`
