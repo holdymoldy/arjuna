@@ -66,7 +66,7 @@ Example
     #SBATCH -e test_job.err
     #SBATCH -o test_job.out # File to which STDOUT will be written %j is the job #
     #SBATCH --mail-type=END # Type of email notification- BEGIN,END,FAIL,ALL
-    #SBATCH --mail-user=arjunahelp@cmu.edu # Email to which notifications will be sent
+    #SBATCH --mail-user=your_andrewid@cmu.edu # Email to which notifications will be sent
 
     echo "Job started on `hostname` at `date`"
 
