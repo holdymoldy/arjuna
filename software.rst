@@ -1,3 +1,0 @@
-Software and available modules
-==============================
-
